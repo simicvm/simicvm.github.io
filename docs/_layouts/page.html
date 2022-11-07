@@ -3,7 +3,11 @@ layout: default
 ---
 
 <h1>
-  {{ page.title }}
+  {% if page.title == "Home" %}
+    {{ "welcome to my page" }}
+  {% else %}
+    {{ page.title }}
+  {% endif %}
 </h1>
 <article>
   {{ content }}
