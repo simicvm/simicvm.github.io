@@ -8,7 +8,7 @@ google-ID: ''
 
 menu:
 - {name: 'about',   url: ''}
-- {name: 'resume', url: 'resume.html'}
+# - {name: 'resume', url: 'resume.html'}
 - {name: 'writing', url: 'writing.html'}
 # - {name: 'Contact', url: 'contact.html'}
 
